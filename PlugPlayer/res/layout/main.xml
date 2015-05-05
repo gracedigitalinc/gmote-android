@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="0dp">
+             
+ <TextView android:id="@+id/network" android:layout_width="fill_parent"
+           android:layout_height="fill_parent" android:padding="0dp" android:visibility="gone" android:gravity="center_vertical|center_horizontal"
+           android:text="Waiting for network connection" android:textStyle="bold" android:textColor="@color/title"/>
+    
+    <com.plugplayer.plugplayer.activities.FixedTabHost
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:visibility="gone">
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="0dp">
+        <com.plugplayer.plugplayer.activities.FixedTabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="0dp" />
+    </LinearLayout>
+</com.plugplayer.plugplayer.activities.FixedTabHost>
+
+<ImageView android:id="@+id/splash" android:layout_width="fill_parent"
+           android:layout_height="fill_parent" android:padding="0dp" android:scaleType="fitCenter" android:src="@drawable/splash"/>
+<!-- 
+<FrameLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<View android:id="@+id/videobackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="center" android:visibility="gone" android:onClick="videobacktap"/>
+<VideoView android:id="@+id/video" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="center" android:visibility="gone" android:onClick="videotap" android:clickable="false"/>
+</FrameLayout>
+ -->
+  
+</LinearLayout>

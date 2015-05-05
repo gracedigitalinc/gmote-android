@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>        
+    <string name="eula_title">Licens</string>
+	<string name="eula_accept">Acceptera</string>
+	<string name="eula_refuse">Vägra</string>
+
+	<string name="search_hint">Search Server</string>
+
+	<string name="select">Välj</string>
+	<string name="add_to_playlist">Lägg till i Spellista</string>
+	<string name="cancel">Avbryta</string>
+
+	<string name="search">Sök:</string>
+	<string name="search_no_colon">Sök</string>
+	
+	<string name="blank_name">Namnet får inte vara tomt</string>
+	<string name="blank_url">Enheten URL får inte lämnas tom</string>
+	<string name="timeout_one">Timeout måste vara 1 eller större</string>
+	<string name="timeout_integer">Timeout måste vara ett heltal</string>
+	<string name="index_threshold_nonzerointeger">Index tröskel måste vara ett positivt heltal</string>
+	<string name="access_device">Kunde inte komma åt enheten</string>
+
+	<string name="delete_device">Bort Enheten</string>
+	<string name="edit_device">Edit Enhet</string>
+	<string name="quit_app">Sluta PlugPlayer</string>
+	<string name="error_reading_url">Fel vid läsning av URL</string>
+	<string name="device_added">Enhet Tillagd</string>
+	<string name="media_renderers">Media Konverteringsanläggningar</string>
+	<string name="media_servers">Medieservrar</string>
+	<string name="no_servers_found">Inga servrar hittades</string>
+	<string name="no_renderers_found">Inga Konverteringsanläggningar hittades</string>
+
+	<string name="linn_settings">Linn Inställningar</string>
+
+	<string name="playing">Spelar</string>
+	<string name="playlist">Spellista</string>
+	<string name="browse">Bläddra</string>
+	<string name="devices">Enheter</string>
+
+	<string name="load_playlist">Belastning Spellista</string>
+	<string name="save_playlist">Spara Spellista</string>
+	<string name="clear_playlist">Rensa Spellista</string>
+
+	<string name="advanced_settings">Avancerade Inställningar</string>
+	<string name="take_effect">Några inställningar ändringar kan kräva en omstart för att börja gälla</string>
+	
+	<string name="manual_url">Manuell Anordning URL</string>
+	
+	<string name="standby">Standby</string>
+	<string name="source">Källa</string>
+	
+	<string name="new_playlist">Ny Spellista Namn</string>
+	
+	<string name="no_server">Ingen Server Utvalda</string>
+	
+	<string name="name">Namn</string>
+	<string name="allow_control">Möjliggöra Kontroll</string>
+	<string name="device_url">Enheten URL</string>
+	<string name="base_url">Baswebbadressen</string>
+	<string name="base_url_override">Baswebbadressen åsidosätta</string>
+	<string name="timeout">Timeout</string>
+	<string name="save">Spara</string>
+
+	<string name="internal_audio">Använda interna ljudspelare</string>
+	<string name="internal_video">Använda interna videospelare</string>
+	<string name="internal_image">Använda interna bildvisare</string>
+	<string name="tap_to_play">Tryck för att spela</string>
+	<string name="device_discovery">Device discovery</string>
+	<string name="ignore_stop_events">Ignorera stoppa händelser</string>
+	<string name="ignore_play_events">Ignorera spela händelser</string>
+	<string name="playlist_artwork">Teckningar i spellistan</string>
+	<string name="browse_artwork">Konstverk när du surfar</string>
+	<string name="soap_timeout">SOAP timeout</string>
+	<string name="scrolling_labels">Rullning etiketter</string>
+	<string name="index_threshold">Index tröskel</string>
+
+	<string name="unsupported">Stöds</string>
+	<string name="normal">Normal</string>
+	<string name="shuffle">Shuffle</string>
+	<string name="repeat_one">Upprepa Ett</string>
+	<string name="repeat_all">Upprepa Alla</string>
+	<string name="random">Slumpmässiga</string>
+	<string name="direct">Direkt</string>
+	<string name="intro">Intro</string>
+	
+</resources>

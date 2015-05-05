@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eula_title">Licentie</string>
+	<string name="eula_accept">Accepteren</string>
+	<string name="eula_refuse">Weigeren</string>
+
+	<string name="search_hint">Op server zoeken</string>
+
+	<string name="select">Selecteer</string>
+	<string name="add_to_playlist">Toevoegen aan Playlist</string>
+	<string name="cancel">Annuleren</string>
+
+	<string name="search">Zoeken:</string>
+	<string name="search_no_colon">Zoeken</string>
+	
+	<string name="blank_name">Naam kan niet leeg zijn</string>
+	<string name="blank_url">Apparaat URL kan niet leeg zijn</string>
+	<string name="timeout_one">Time-out moet 1 of meer</string>
+	<string name="timeout_integer">Time-out moet een geheel getal</string>
+	<string name="index_threshold_nonzerointeger">Index drempel moet een positief geheel getal zijn</string>
+	<string name="access_device">Kan geen toegang krijgen tot het apparaat</string>
+
+	<string name="delete_device">Apparaat verwijderen</string>
+	<string name="edit_device">Apparaat bewerken</string>
+	<string name="quit_app">PlugPlayer stoppen</string>
+	<string name="error_reading_url">Fout bij het lezen URL</string>
+	<string name="device_added">Apparaat is toegevoegd</string>
+	<string name="media_renderers">Media Renderers</string>
+	<string name="media_servers">Mediaservers</string>
+	<string name="no_servers_found">Geen servers gevonden</string>
+	<string name="no_renderers_found">Geen renderers gevonden</string>
+
+	<string name="linn_settings">Linn-instellingen</string>
+
+	<string name="playing">Spelen</string>
+	<string name="playlist">Afspeellijst</string>
+	<string name="browse">Bladeren</string>
+	<string name="devices">Apparaten</string>
+
+	<string name="load_playlist">Playlist laden</string>
+	<string name="save_playlist">Playlist opslaan</string>
+	<string name="clear_playlist">Playlist wissen</string>
+
+	<string name="advanced_settings">Geavanceerde Instellingen</string>
+	<string name="take_effect">Herstart nodig om instellingen te activeren</string>
+	
+	<string name="manual_url">URL invoeren</string>
+	
+	<string name="standby">Stand-by</string>
+	<string name="source">Bron</string>
+	
+	<string name="new_playlist">Nieuwe naam voor de afspeellijst</string>
+	
+	<string name="no_server">Geen server geselecteerd</string>
+	
+	<string name="name">Naam</string>
+	<string name="allow_control">Bediening toestaan</string>
+	<string name="device_url">URL apparaat</string>
+	<string name="base_url">Basis-URL</string>
+	<string name="base_url_override"> Basis-URL overschrijven</string>
+	<string name="timeout">Timeout</string>
+	<string name="save">Opslaan</string>
+
+	<string name="internal_audio">Interne audio-speler gebruiken</string>
+	<string name="internal_video">Interne videospeler gebruiken</string>
+	<string name="internal_image">Interne image viewer gebruiken</string>
+	<string name="tap_to_play">Tikken om af te spelen</string>
+	<string name="device_discovery">Apparaten automatisch herkennen</string>
+	<string name="ignore_stop_events">Stop-gebeurtenissen negeren</string>
+	<string name="ignore_play_events">Afspeel-gebeurtenissen negeren</string>
+	<string name="playlist_artwork">Albumhoezen in afspeellijst</string>
+	<string name="browse_artwork">Albumhoezen bij bladeren</string>
+	<string name="soap_timeout">SOAP-timeout</string>
+	<string name="scrolling_labels">Titels als lichtkrant</string>
+	<string name="index_threshold">Drempelwaarde indexering</string>
+	
+	<string name="unsupported">Niet ondersteund</string>
+	<string name="normal">Normaal</string>
+	<string name="shuffle">Shuffle</string>
+	<string name="repeat_one">Een Herhalen</string>
+	<string name="repeat_all">Alles Herhalen</string>
+	<string name="random">Willekeurig</string>
+	<string name="direct">Direct</string>
+	<string name="intro">Intro</string>
+	
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.grace.remote"
+      android:versionCode="46"
+      android:versionName="3.0.7.7">
+      
+    <uses-sdk android:minSdkVersion="7"/>
+    
+    <application android:icon="@drawable/icon" android:label="@string/app_name"
+        android:screenOrientation="portrait">
+        <activity android:name="com.grace.remote.activities.MainActivity"  android:launchMode="singleTop"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustPan"
+                  android:configChanges="orientation|keyboardHidden"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>            
+        </activity>
+
+<receiver android:name="com.plugplayer.recivaremote.activities.ConnectivityReceiver">
+<intent-filter>
+<action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+</intent-filter>
+</receiver>
+
+    	<activity android:name="com.plugplayer.recivaremote.activities.NowPlayingActivity"/>
+		<activity android:name="com.plugplayer.recivaremote.activities.PresetsActivity"/>
+		<activity android:name="com.plugplayer.recivaremote.activities.PlaylistActivity"/>
+     	<activity android:name="com.plugplayer.recivaremote.activities.BrowseActivityGroup" android:theme="@android:style/Theme.NoTitleBar"/>   
+    	<activity android:name="com.plugplayer.recivaremote.activities.BrowseActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+     	<activity android:name="com.plugplayer.recivaremote.activities.MenuActivityGroup"/>   
+    	<activity android:name="com.plugplayer.recivaremote.activities.MenuActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+    	<activity android:name="com.plugplayer.recivaremote.activities.RadiosActivity"/>
+    	<activity android:name="com.grace.remote.activities.GraceRadiosActivity"/>
+    	<activity android:name="com.grace.remote.activities.GraceFAQActivity"/>
+    	<activity android:name="com.plugplayer.recivaremote.activities.GraceFAQActivity"/>
+    	<activity android:name="com.plugplayer.recivaremote.activities.AlarmActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+    	<activity android:name="com.plugplayer.recivaremote.activities.ServersActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+    	
+   	    	
+ 	</application>
+ 	
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>

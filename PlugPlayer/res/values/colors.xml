@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buttonbackground">#00000000</color>
+    <color name="arrow">#FFFFFFFF</color>
+    <color name="title">#FFFFFF</color>
+    <color name="album">#DDDDDD</color>
+    <color name="artist">#DDDDDD</color>
+    <color name="reorderbackground">#99FF9900</color>
+    <color name="browseTitlebackground">#99999999</color>
+</resources>

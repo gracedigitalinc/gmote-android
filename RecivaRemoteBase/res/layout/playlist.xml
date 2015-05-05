@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"   android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+  
+<com.commonsware.cwac.tlv.TouchListView xmlns:tlv="http://schemas.android.com/apk/res/com.plugplayer.recivaremote"
+	android:id="@android:id/list"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:drawSelectorOnTop="false"
+	android:dividerHeight="1px"
+	android:divider="#99999999"
+	tlv:normal_height="50dip"
+	tlv:grabber="@+id/playing"
+	tlv:remove_mode="slideRight"
+	tlv:dragndrop_background="@color/reorderbackground"
+/>
+
+<TextView android:id="@+id/title"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+	android:layout_weight="1"
+   android:gravity="center_vertical|center_horizontal" android:text="Playlist Empty" android:textStyle="bold"
+    android:textColor="@color/title"
+    android:visibility="gone"/>
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+	<Button android:id="@+id/cancel"
+		android:text="Clear"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clearPlaylist"/>
+        
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+	
+		<Button android:id="@+id/playlistadd"
+		android:text="Add"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addToPlaylist"/>
+</LinearLayout>
+
+</LinearLayout>
+

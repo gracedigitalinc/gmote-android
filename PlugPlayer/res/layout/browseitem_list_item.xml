@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="50dp">
+
+<ImageButton
+	android:id="@+id/select"
+	android:src="@drawable/partialselected"
+	android:layout_width="25dp"
+	android:layout_height="25dp"
+	android:layout_marginRight="2dp"
+	android:layout_gravity="center_vertical"
+	android:background="@color/buttonbackground"
+	android:onClick="onClick" android:focusable="false"
+    android:focusableInTouchMode="false"/>
+	
+<ImageView
+	android:id="@+id/art"
+	android:layout_width="50dp"
+	android:layout_height="50dp"
+	android:paddingTop="1px"
+	android:paddingBottom="1px"
+	android:layout_marginRight="5sp"
+	android:visibility="visible"/>
+		
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:layout_weight="1">
+
+<TextView
+	android:id="@+id/title"
+	android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="0dp"
+    android:textSize="16sp"
+    android:gravity="center_vertical"
+    android:text="Title"
+    android:textStyle="bold"
+    android:textColor="@color/title"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+ 	android:marqueeRepeatLimit="marquee_forever"
+    />
+    
+
+<TextView
+	android:id="@+id/album"
+    android:layout_weight="0"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="0dp"
+    android:textSize="16sp"
+    android:gravity="center_vertical"
+    android:text="Album"
+    android:textColor="#BEBEBE"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+ 	android:marqueeRepeatLimit="marquee_forever"/>
+</LinearLayout>
+
+    <TextView
+	android:id="@+id/time"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="0dp"
+    android:layout_marginRight="5dp"
+    android:textSize="16sp"
+    android:gravity="center_vertical"
+    android:text=" 00:00:00"
+    android:textStyle="bold"
+    android:textColor="@color/title"
+    android:singleLine="true"/>
+    
+</LinearLayout>

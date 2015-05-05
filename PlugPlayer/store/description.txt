@@ -1,0 +1,6 @@
+PlugPlayer, an application to stream music from UPnPª/DLNA¨ media servers or control UPnPª/DLNA¨ media renderers
+
+- Stream Music*, or Video* from a Media Server* to your Android phone
+- Control a Media Renderer* from your Android phone
+
+* Please see plugplayer.com for supported  file formats and devices

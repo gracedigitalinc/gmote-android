@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="presets">Presets</string>
+    <string name="menu">Menu</string>
+    <string name="radios">Radios</string>
+    <string name="no_radios">No Radios Found\n\n\n\n\nSearching...</string>
+    <string name="no_servers">No Servers Found\n\n\n\n\nSearching...</string>
+    <string name="no_radio">No Radios Found</string>
+    <string name="set_sleep_timer">Set Timer (current timer: %1$s)</string>
+    <string name="turn_sleep_timer_off">Turn Off</string>
+    <string name="sleep_timer_off">off</string>
+    <string name="GraceFAQ">• Do you have multiple Grace Internet radios? Change the name of any radio by entering  
+        into the radio’s ‘settings’ menu then select ‘UPnP’ then ‘Device Name’.  After changing your radio’s name 
+        please restart your radio and this app.\n\n
+        • This app is optimized for Grace Internet radios with service packs starting with ‘V26’. Radios with 
+        service packs starting with ‘V25’ please use the original Grace iPhone app.  To check your service pack on 
+        your radio select ‘settings’ then select ‘version’ or ‘properties’.\n\n
+        • No Radios Found: Make sure your phone uses the same Wi-Fi network as your Grace Internet radio(s)\n\n
+        • Other issues or comments please contact: www.gracesupport.com</string>
+</resources>

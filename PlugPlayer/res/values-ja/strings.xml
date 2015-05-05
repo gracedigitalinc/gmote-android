@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eula_title">ライセンス</string>
+	<string name="eula_accept">受け入れる</string>
+	<string name="eula_refuse">断る</string>
+
+	<string name="search_hint">検索サーバー</string>
+
+	<string name="select">選択</string>
+	<string name="add_to_playlist">再生リストに追加</string>
+	<string name="cancel">キャンセル</string>
+
+	<string name="search">検索:</string>
+	<string name="search_no_colon">検索</string>
+	
+	<string name="blank_name">名は空白にすることはできません</string>
+	<string name="blank_url">デバイスのURLは空白にすることはできません</string>
+	<string name="timeout_one">タイムアウトは1以上でなければなりません</string>
+	<string name="timeout_integer">タイムアウトが整数でなければなりません</string>
+	<string name="index_threshold_nonzerointeger">インデックスのしきい値は正の整数でなければなりません</string>
+	<string name="access_device">デバイスにアクセスできませんでした。</string>
+
+	<string name="delete_device">デバイスを削除</string>
+	<string name="edit_device">デバイスを編集</string>
+	<string name="quit_app">PlugPlayerを終了</string>
+	<string name="error_reading_url">読み取りエラーのURL</string>
+	<string name="device_added">デバイスを追加</string>
+	<string name="media_renderers">メディアレンダラー</string>
+	<string name="media_servers">メディアサーバー</string>
+	<string name="no_servers_found">ないサーバーが見つかりません</string>
+	<string name="no_renderers_found">ないレンダラーが見つかりません</string>
+
+	<string name="linn_settings">Linnの設定</string>
+
+	<string name="playing">再生</string>
+	<string name="playlist">プレイリスト</string>
+	<string name="browse">ブラウズ</string>
+	<string name="devices">デバイス</string>
+
+	<string name="load_playlist">負荷プレイリスト</string>
+	<string name="save_playlist">プレイリストを保存する</string>
+	<string name="clear_playlist">明確なプレイリスト</string>
+
+	<string name="advanced_settings">高度な設定</string>
+	<string name="take_effect">いくつかの設定の変更を有効にするには再起動が必要な場合があります</string>
+	
+	<string name="manual_url">手動でデバイスのURL</string>
+	
+	<string name="standby">スタンバイ</string>
+	<string name="source">ソース</string>
+	
+	<string name="new_playlist">新しいプレイリスト名</string>
+	
+	<string name="no_server">が選択されていないサーバー</string>
+	
+	<string name="name">名</string>
+	<string name="allow_control">制御を可能にする</string>
+	<string name="device_url">デバイスのURL</string>
+	<string name="base_url">ベースURL</string>
+	<string name="base_url_override">ベースURLをオーバーライド</string>
+	<string name="timeout">タイムアウト</string>
+	<string name="save">保存リストへ</string>
+
+	<string name="internal_audio">内蔵のオーディオプレーヤーを使って</string>
+	<string name="internal_video">内蔵ビデオプレーヤーを使用する</string>
+	<string name="internal_image">内部画像ビューアを使用して</string>
+	<string name="tap_to_play">プレイする]をタップします</string>
+	<string name="device_discovery">デバイスの検出</string>
+	<string name="ignore_stop_events">イベントを停止無視</string>
+	<string name="ignore_play_events">イベントを再生無視する</string>
+	<string name="playlist_artwork">プレイリスト内のアートワーク</string>
+	<string name="browse_artwork">作品閲覧中</string>
+	<string name="soap_timeout">SOAPのタイムアウト</string>
+	<string name="scrolling_labels">スクロールラベル</string>
+	<string name="index_threshold">インデックスのしきい値</string>
+
+	<string name="unsupported">サポートされていない</string>
+	<string name="normal">通常</string>
+	<string name="shuffle">シャッフル</string>
+	<string name="repeat_one">いずれかを繰り返す</string>
+	<string name="repeat_all">すべての繰り返し</string>
+	<string name="random">ランダム</string>
+	<string name="direct">直接</string>
+	<string name="intro">イントロ</string>
+	
+</resources>

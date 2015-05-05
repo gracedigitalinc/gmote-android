@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       
+    <string name="eula_title">Lizenz</string>
+	<string name="eula_accept">Akzeptieren</string>
+	<string name="eula_refuse">Verweigern</string>
+
+	<string name="search_hint">Such-Server</string>
+
+	<string name="select">Mehrere Markieren</string>
+	<string name="add_to_playlist">Zur Playlist Hinzufügen</string>
+	<string name="cancel">Abbrechen</string>
+
+	<string name="search">Suche:</string>
+	<string name="search_no_colon">Suche</string>
+	
+	<string name="blank_name">Name darf nicht leer sein</string>
+	<string name="blank_url">Geräte-URL darf nicht leer sein</string>
+	<string name="timeout_one">Timeout muss 1 oder größer sein</string>
+	<string name="timeout_integer">Timeout muss ein integer sein</string>
+	<string name="index_threshold_nonzerointeger">Index Schwelle muss eine positive ganze Zahl sein</string>
+	<string name="access_device">Konnte nicht auf Gerät</string>
+
+	<string name="delete_device">Löschen Gerät</string>
+	<string name="edit_device">Bearbeiten Gerät</string>
+	<string name="quit_app">PlugPlayer Beenden</string>
+	<string name="error_reading_url">Fehler Beim Lesen URL</string>
+	<string name="device_added">Gerät Hinzugefügt</string>
+	<string name="media_renderers">Medien Renderer</string>
+	<string name="media_servers">Medien-Server</string>
+	<string name="no_servers_found">Kein Server Gefunden</string>
+	<string name="no_renderers_found">Kein Renderer Gefunden</string>
+	
+	<string name="linn_settings">Linn Einstellungen</string>
+
+	<string name="playing">Spielen</string>
+	<string name="playlist">Playlist</string>
+	<string name="browse">Durchsuchen</string>
+	<string name="devices">Geräte</string>
+
+	<string name="load_playlist">Vorherige Playlist</string>
+	<string name="save_playlist">Wiedergabeliste speichern</string>
+	<string name="clear_playlist">Playlist leeren</string>
+
+	<string name="advanced_settings">Erweiterte Einstellungen</string>
+	<string name="take_effect">Einige Einstellungen Änderungen erfordern einen Neustart wirksam</string>
+	
+	<string name="manual_url">Handgerät URL</string>
+	
+	<string name="standby">Standby</string>
+	<string name="source">Quelle</string>
+	
+	<string name="new_playlist">Neuen Namen Der Wiedergabeliste</string>
+	
+	<string name="no_server">Kein Server Ausgewählt</string>
+	
+	<string name="name">Name</string>
+	<string name="allow_control">Ermöglichen Die Ansteuerung</string>
+	<string name="device_url">Gerät URL</string>
+	<string name="base_url">Basis-URL</string>
+	<string name="base_url_override">Basis-URL überschreiben</string>
+	<string name="timeout">Timeout</string>
+	<string name="save">Speichern</string>
+
+	<string name="internal_audio">internen Audio-Player verwenden</string>
+	<string name="internal_video">internen Video-Player verwenden</string>
+	<string name="internal_image">internen Bildbetrachter verwenden</string>
+	<string name="tap_to_play">Play durch Tippen</string>
+	<string name="device_discovery">Geräte finden</string>
+	<string name="ignore_stop_events">Stop ignorieren</string>
+	<string name="ignore_play_events">Play ignorieren</string>
+	<string name="playlist_artwork">Artwork während des Stöberns</string>
+	<string name="browse_artwork">Artwork während des Surfens</string>
+	<string name="soap_timeout">SOAP timeout (Sek)</string>
+	<string name="scrolling_labels">Blättern Etiketten</string>
+	<string name="index_threshold">Index Schwelle</string>
+
+	<string name="unsupported">Nicht unterstützt</string>
+	<string name="normal">Normal</string>
+	<string name="shuffle">Shuffle</string>
+	<string name="repeat_one">Einen wiederholen</string>
+	<string name="repeat_all">Alle wiederholen</string>
+	<string name="random">Zufällige</string>
+	<string name="direct">Direkte</string>
+	<string name="intro">Intro</string>
+	
+</resources>

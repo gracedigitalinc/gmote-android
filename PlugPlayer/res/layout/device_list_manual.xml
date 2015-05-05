@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="5px" android:paddingRight="5px">
+<LinearLayout
+    android:focusable="true" android:focusableInTouchMode="true"
+    android:layout_width="0px" android:layout_height="0px"/>
+<EditText
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:hint="@string/manual_url"
+  android:inputType="textUri"
+  android:id="@+id/edit">
+</EditText>
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eula_title">Licence</string>
+	<string name="eula_accept">Accepter</string>
+	<string name="eula_refuse">Refuser</string>
+
+	<string name="search_hint">Serveur De Recherche</string>
+
+	<string name="select">Sélectionnez</string>
+	<string name="add_to_playlist">Ajouter à la Playlist</string>
+	<string name="cancel">Annuler</string>
+
+	<string name="search">Recherche:</string>
+	<string name="search_no_colon">Recherche</string>
+	
+	<string name="blank_name">Nom ne peut pas être vide</string>
+	<string name="blank_url">URL périphérique ne peut pas être vide</string>
+	<string name="timeout_one">Timeout doit être de 1 ou plus</string>
+	<string name="timeout_integer">Timeout doit être un entier</string>
+	<string name="index_threshold_nonzerointeger">Indice du seuil doit être un entier positif</string>
+	<string name="access_device">Ne pouvait pas l\'accès au périphérique</string>
+
+	<string name="delete_device">Supprimer Dispositif</string>
+	<string name="edit_device">Modifier Dispositif</string>
+	<string name="quit_app">Quitter PlugPlayer</string>
+	<string name="error_reading_url">URL erreur de lecture</string>
+	<string name="device_added">Dispositif Ajouté</string>
+	<string name="media_renderers">Rendus des Médias</string>
+	<string name="media_servers">Serveurs de Médias</string>
+	<string name="no_servers_found">Pas de serveurs trouvés</string>
+	<string name="no_renderers_found">Pas de rendus trouvés</string>
+
+	<string name="linn_settings">Paramètres de Linn</string>
+
+	<string name="playing">Jouer</string>
+	<string name="playlist">Playlist</string>
+	<string name="browse">Voir</string>
+	<string name="devices">Dispositifs</string>
+
+	<string name="load_playlist">Charge la Playlist</string>
+	<string name="save_playlist">Enregistrer la Playlist</string>
+	<string name="clear_playlist">Clairement la Playlist</string>
+
+	<string name="advanced_settings">Paramètres Avancés</string>
+	<string name="take_effect">Quelques changements de réglages peuvent nécessiter un redémarrage pour prendre effet</string>
+	
+	<string name="manual_url">URL Sispositif Manuel</string>
+	
+	<string name="standby">Veille</string>
+	<string name="source">Source</string>
+	
+	<string name="new_playlist">Nom de la Sélection de Nouveaux</string>
+	
+	<string name="no_server">Pas de Serveur Sélectionné</string>
+	
+	<string name="name">Nom</string>
+	<string name="allow_control">Permettre un Contrôle</string>
+	<string name="device_url">URL Dispositif</string>
+	<string name="base_url">URL de Base</string>
+	<string name="base_url_override">URL de Base Override</string>
+	<string name="timeout">Timeout</string>
+	<string name="save">Enregistrer</string>
+
+	<string name="internal_audio">Usage interne lecteur audio</string>
+	<string name="internal_video">Utiliser le lecteur vidéo interne</string>
+	<string name="internal_image">Utiliser la visionneuse d\'image interne</string>
+	<string name="tap_to_play">Robinet à Jouer</string>
+	<string name="device_discovery">Découverte de Dispositif</string>
+	<string name="ignore_stop_events">Ignorer les événements d\'arrêt</string>
+	<string name="ignore_play_events">Ignorer jouer des événements</string>
+	<string name="playlist_artwork">œuvres d\'art dans la playlist</string>
+	<string name="browse_artwork">œuvres d\'art pendant la navigation</string>
+	<string name="soap_timeout">Timeout SOAP</string>
+	<string name="scrolling_labels">Défilement des étiquettes</string>
+	<string name="index_threshold">Indice de seuil</string>
+
+	<string name="unsupported">Non pris en charge</string>
+	<string name="normal">Normale</string>
+	<string name="shuffle">Shuffle</string>
+	<string name="repeat_one">Répéter une</string>
+	<string name="repeat_all">Répétition de toutes les</string>
+	<string name="random">Aléatoire</string>
+	<string name="direct">Direct</string>
+	<string name="intro">Intro</string>
+	
+</resources>

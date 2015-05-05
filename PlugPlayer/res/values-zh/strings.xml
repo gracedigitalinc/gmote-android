@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eula_title">许可证</string>
+	<string name="eula_accept">接受</string>
+	<string name="eula_refuse">拒绝</string>
+
+	<string name="search_hint">搜索服务器</string>
+
+	<string name="select">选择</string>
+	<string name="add_to_playlist">添加到播放列表</string>
+	<string name="cancel">取消</string>
+
+	<string name="search">搜索：</string>
+	<string name="search_no_colon">搜索</string>
+	
+	<string name="blank_name">名称不能为空</string>
+	<string name="blank_url">设备的URL不能为空</string>
+	<string name="timeout_one">超时必须为1或更大</string>
+	<string name="timeout_integer">超时值必须是一个整数</string>
+	<string name="index_threshold_nonzerointeger">指數閾值必須是一個正整數</string>
+	<string name="access_device">无法接入设备</string>
+
+	<string name="delete_device">删除设备</string>
+	<string name="edit_device">编辑设备</string>
+	<string name="quit_app">退出PlugPlayer</string>
+	<string name="error_reading_url">错误读取网址</string>
+	<string name="device_added">设备增加</string>
+	<string name="media_renderers">媒体渲染</string>
+	<string name="media_servers">媒体服务器</string>
+	<string name="no_servers_found">没有服务器发现</string>
+	<string name="no_renderers_found">没有渲染发现</string>
+
+	<string name="linn_settings">设置Linn</string>
+
+	<string name="playing">播放</string>
+	<string name="playlist">播放列表</string>
+	<string name="browse">浏览</string>
+	<string name="devices">设备</string>
+
+	<string name="load_playlist">载入播放列表</string>
+	<string name="save_playlist">保存播放列表</string>
+	<string name="clear_playlist">清除播放列表</string>
+
+	<string name="advanced_settings">高级设置</string>
+	<string name="take_effect">一些设置的变化可能需要重新启动才能生效</string>
+	
+	<string name="manual_url">手动装置网址</string>
+	
+	<string name="standby">待机</string>
+	<string name="source">来源</string>
+	
+	<string name="new_playlist">新的播放列表的名称</string>
+	
+	<string name="no_server">没有服务器选择</string>
+	
+	<string name="name">名称</string>
+	<string name="allow_control">允许控制</string>
+	<string name="device_url">设备的URL</string>
+	<string name="base_url">基本URL</string>
+	<string name="base_url_override">基础URL重写</string>
+	<string name="timeout">超时</string>
+	<string name="save">保存</string>
+
+	<string name="internal_audio">使用内部音频播放器</string>
+	<string name="internal_video">使用内部视频播放器</string>
+	<string name="internal_image">使用内部图像浏览器</string>
+	<string name="tap_to_play">点击以播放</string>
+	<string name="device_discovery">设备发现</string>
+	<string name="ignore_stop_events">忽略停止事件</string>
+	<string name="ignore_play_events">忽略發揮事件</string>
+	<string name="playlist_artwork">作品在播放列表</string>
+	<string name="browse_artwork">在浏览艺术品</string>
+	<string name="soap_timeout">SOAP超时</string>
+	<string name="scrolling_labels">滾動標籤</string>
+	<string name="index_threshold">指數門檻</string>
+
+	<string name="unsupported">不支持</string>
+	<string name="normal">正常</string>
+	<string name="shuffle">随机</string>
+	<string name="repeat_one">单曲重复</string>
+	<string name="repeat_all">全部重复</string>
+	<string name="random">随机</string>
+	<string name="direct">正常</string>
+	<string name="intro">简介</string>
+
+	<string name="playlist_empty">播放列表为空</string>
+	
+	<string name="container_title_folders">文件夹</string>
+	<string name="container_title_audio">音频</string>
+	<string name="container_title_video">视频</string>
+	<string name="container_title_image">图片</string>
+	<string name="container_title_all_audio">所有音频</string>
+	<string name="container_title_artists">艺术家</string>
+	<string name="container_title_albums">专辑</string>
+	<string name="container_title_genres">流派</string>	
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlugPlayer</string>
+        
+    <string name="eula_title">License</string>
+	<string name="eula_accept">Accept</string>
+	<string name="eula_refuse">Refuse</string>
+
+	<string name="search_label">PlugPlayer</string>
+	<string name="search_hint">Search Server</string>
+
+	<string name="select">Select</string>
+	<string name="add_to_playlist">Add to Playlist</string>
+	<string name="cancel">Cancel</string>
+
+	<string name="search">Search:</string>
+	<string name="search_no_colon">Search</string>
+	
+	<string name="blank_name">Name cannot be blank</string>
+	<string name="blank_url">Device URL cannot be blank</string>
+	<string name="timeout_one">Timeout must be 1 or greater</string>
+	<string name="timeout_integer">Timeout must be an integer</string>
+	<string name="index_threshold_nonzerointeger">Index threshold must be a positive integer</string>
+	<string name="access_device">Could not access device</string>
+
+	<string name="delete_device">Delete Device</string>
+	<string name="edit_device">Edit Device</string>
+	<string name="quit_app">Quit PlugPlayer</string>
+	<string name="error_reading_url">Error reading URL</string>
+	<string name="device_added">Device Added</string>
+	<string name="media_renderers">Media Renderers</string>
+	<string name="media_servers">Media Servers</string>
+	<string name="no_servers_found">No Servers Found</string>
+	<string name="no_renderers_found">No Renderers Found</string>
+
+	<string name="linn_settings">Linn Settings</string>
+
+	<string name="playing">Playing</string>
+	<string name="playlist">Playlist</string>
+	<string name="browse">Browse</string>
+	<string name="devices">Devices</string>
+	<string name="linn">Linn</string>
+
+	<string name="load_playlist">Load Playlist</string>
+	<string name="save_playlist">Save Playlist</string>
+	<string name="clear_playlist">Clear Playlist</string>
+
+	<string name="advanced_settings">Advanced Settings</string>
+	<string name="take_effect">Some setting changes may require a restart to take effect</string>
+	
+	<string name="manual_url">Manual Device URL</string>
+	
+	<string name="standby">Standby</string>
+	<string name="source">Source</string>
+	
+	<string name="new_playlist">New Playlist Name</string>
+	
+	<string name="no_server">No Server Selected</string>
+	
+	<string name="name">Name</string>
+	<string name="allow_control">Allow Control</string>
+	<string name="device_url">Device URL</string>
+	<string name="base_url">Base URL</string>
+	<string name="base_url_override">Base URL Override</string>
+	<string name="timeout">Timeout</string>
+	<string name="save">Save</string>
+
+	<string name="internal_audio">Use internal audio player</string>
+	<string name="internal_video">Use internal video player</string>
+	<string name="internal_image">Use internal image viewer</string>
+	<string name="tap_to_play">Tap to play</string>
+	<string name="device_discovery">Device discovery</string>
+	<string name="ignore_stop_events">Ignore stop events</string>
+	<string name="ignore_play_events">Ignore play events</string>
+	<string name="playlist_artwork">Artwork in playlist</string>
+	<string name="browse_artwork">Artwork while browsing</string>
+	<string name="soap_timeout">Soap timeout</string>
+	<string name="scrolling_labels">Scrolling labels</string>
+	<string name="index_threshold">Index threshold</string>
+
+	<string name="unsupported">Unsupported</string>
+	<string name="normal">Normal</string>
+	<string name="shuffle">Shuffle</string>
+	<string name="repeat_one">Repeat One</string>
+	<string name="repeat_all">Repeat All</string>
+	<string name="random">Random</string>
+	<string name="direct">Direct</string>
+	<string name="intro">Intro</string>
+
+	<string name="username">Username</string>
+	<string name="password">Password</string>
+
+	<string name="mp3tunes_success">MP3tunes login successful</string>
+	<string name="mp3tunes_fail">MP3tunes login failed</string>
+	
+	<string name="cloudupnp_add_title">Add CloudUPnP Server</string>
+	<string name="cloudupnp_add_button">Add Server</string>
+	
+	<string name="linn_no_sender">No Sender Selected</string>
+
+	<string name="playlist_clear">Do you wish to clear the current playlist first?</string>
+	<string name="playlist_clear_button">Clear</string>
+	<string name="playlist_add_button">Add to End</string>
+	<string name="playlist_delete">Delete this playlist</string>
+	
+	<string name="playlist_empty">Playlist Empty</string>
+	
+	<string name="container_title_folders">Browse Folders</string>
+	<string name="container_title_audio">Audio</string>
+	<string name="container_title_video">Video</string>
+	<string name="container_title_image">Image</string>
+	<string name="container_title_all_audio">All Audio</string>
+	<string name="container_title_artists">Artists</string>
+	<string name="container_title_albums">Albums</string>
+	<string name="container_title_genres">Genres</string>
+	
+</resources>

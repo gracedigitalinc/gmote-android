@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+	<TextView android:id="@+id/title" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_horizontal" android:maxLines="1" android:text=" " android:textStyle="bold"
+    android:textColor="@color/title" />
+	<TextView android:id="@+id/artist" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_horizontal" android:maxLines="1" android:text=" " 
+		android:textColor="@color/artist"/>
+	<TextView android:id="@+id/album" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_horizontal" android:maxLines="1" android:text=" "
+		android:textColor="@color/album"/>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+
+	<TextView android:id="@+id/begintime" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:gravity="center_vertical" android:text="100:00" android:paddingRight="5dp"/>
+	<SeekBar android:id="@+id/seekbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+	<ProgressBar android:id="@+id/progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"  android:visibility="gone"/>
+	<TextView android:id="@+id/endtime" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:gravity="center_vertical" android:text="100:00" android:paddingLeft="5dp"/>
+</LinearLayout>
+		
+<ImageView android:id="@+id/albumArt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:src="@drawable/note" android:paddingTop="5dp"/>
+<ProgressBar android:id="@+id/artProgress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:visibility="gone" android:padding="75px"/>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_horizontal" android:padding="10dp">
+<ImageButton android:id="@+id/prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/prev" android:background="@color/buttonbackground" android:layout_weight="1" android:padding="5dp"/>
+<ImageButton android:id="@+id/stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stop" android:background="@color/buttonbackground" android:layout_weight="1" android:padding="5dp"/>
+<ImageButton android:id="@+id/play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play" android:background="@color/buttonbackground" android:layout_weight="1" android:padding="5dp"/>
+<ImageButton android:id="@+id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/next" android:background="@color/buttonbackground" android:layout_weight="1" android:padding="5dp"/>
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="10dp">
+<ImageButton android:id="@+id/volumedown" android:scaleType="fitCenter" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/volumedown" android:background="@color/buttonbackground" android:gravity="center_vertical" android:layout_marginRight="10dp"/>
+	<SeekBar android:id="@+id/volumebar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+<ImageButton android:id="@+id/volumeup" android:scaleType="fitCenter" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/volumeup" android:background="@color/buttonbackground" android:gravity="center_vertical" android:layout_marginLeft="10dp" android:layout_marginRight="5dp"/>
+</LinearLayout>
+
+</LinearLayout>

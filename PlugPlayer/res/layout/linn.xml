@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" android:id="@+id/table">
+
+		<TableRow>
+			<TextView android:gravity="right" android:layout_gravity="center_vertical" android:text="@string/standby"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/standby" />
+		</TableRow>
+			
+		<TableRow>
+			<TextView android:gravity="right" android:layout_gravity="center_vertical" android:text="@string/source"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<Spinner android:id="@+id/source"
+                android:layout_alignParentTop="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip" />
+		</TableRow>
+		
+		<TableRow>
+			<TextView android:id="@+id/songcast_label" android:gravity="right" android:layout_gravity="center_vertical" android:text="Songcast"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<Spinner android:id="@+id/songcast"
+                android:layout_alignParentTop="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip" />
+		</TableRow>
+		
+  </TableLayout>
+  
+</LinearLayout>

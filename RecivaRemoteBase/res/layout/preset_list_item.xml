@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="50sp" android:minHeight="50sp" android:maxHeight="50sp">
+
+<TextView
+	android:id="@+id/name"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:paddingLeft="5sp"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:gravity="center_vertical"
+    android:textColor="@color/preset"
+    android:text="P1: This is a preset name, blah blah blah blah"
+    android:lines="1"
+    android:ellipsize="end"/>
+
+<ImageButton
+	android:id="@+id/select"
+	android:src="@drawable/preset_assign"
+	android:layout_width="50sp"
+	android:layout_height="50sp"
+	android:background="@color/buttonbackground"
+	android:onClick="onClick" android:focusable="false"
+    android:focusableInTouchMode="false"/>
+
+</LinearLayout>

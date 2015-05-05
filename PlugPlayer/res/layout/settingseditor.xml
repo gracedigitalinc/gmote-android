@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+
+<ScrollView  
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:scrollbars="vertical"
+    android:layout_weight="1"> 
+     
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" android:id="@+id/table">
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/internal_audio"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/audio" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/internal_video"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/video" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/internal_image"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title"/>
+			<CheckBox android:id="@+id/image" />
+		</TableRow>
+ 
+ 		<TableRow>
+			<TextView android:gravity="right" android:text="@string/tap_to_play"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/tap" />
+		</TableRow>
+
+ 		<TableRow>
+			<TextView android:gravity="right" android:text="@string/device_discovery"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/discovery" />
+		</TableRow>
+
+ 		<TableRow>
+			<TextView android:gravity="right" android:text="@string/ignore_stop_events"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/ignorestop" />
+		</TableRow>
+
+ 		<TableRow>
+			<TextView android:gravity="right" android:text="@string/ignore_play_events"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/ignoreplay" />
+		</TableRow>
+
+  		<TableRow>
+			<TextView android:gravity="right" android:text="@string/playlist_artwork"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/artplaylist" />
+		</TableRow>
+ 
+  		<TableRow>
+			<TextView android:gravity="right" android:text="@string/browse_artwork"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/artbrowse" />
+		</TableRow>
+		  
+   		<TableRow>
+			<TextView android:gravity="right" android:text="@string/scrolling_labels"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/scrollinglabels" />
+		</TableRow>
+   				
+   		<TableRow>
+			<TextView android:gravity="right" android:text="@string/soap_timeout"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<EditText android:id="@+id/timeout" android:maxLines="1" android:inputType="number" android:maxLength="3" />
+		</TableRow>
+   				
+   		<TableRow>
+			<TextView android:gravity="right" android:text="@string/index_threshold"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<EditText android:id="@+id/indexthreshold" android:maxLines="1" android:inputType="number" android:maxLength="5" />
+		</TableRow>
+   				
+     </TableLayout>
+
+</ScrollView>
+
+	<Button android:text="@string/save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right" android:id="@+id/save" android:layout_gravity="right"/>
+
+  </LinearLayout>

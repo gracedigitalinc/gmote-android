@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:minHeight="50sp">
+    
+<ImageView android:id="@+id/check" android:src="@drawable/check" android:layout_width="wrap_content" android:layout_height="fill_parent"/>
+
+<TextView
+	android:id="@+id/name"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:paddingLeft="5sp"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:gravity="center_vertical" >
+</TextView>
+
+</LinearLayout>

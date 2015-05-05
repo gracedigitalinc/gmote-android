@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroll" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:scrollbars="vertical">
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:stretchColumns="1"
+		android:shrinkColumns="1" android:id="@+id/table">
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="Alarm #"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<Spinner android:id="@+id/number" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+		</TableRow>
+
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="Enabled"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox android:id="@+id/enabled" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="Time"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<TextView android:id="@+id/time" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="12:00" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="Repetition"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<Spinner android:id="@+id/repeat" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="Day"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<Spinner android:id="@+id/day" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="Type"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<Spinner android:id="@+id/type" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+		</TableRow>
+
+		<TableRow android:id="@+id/presetrow" android:visibility="gone">
+			<TextView android:gravity="right" android:text="Station"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<Spinner android:id="@+id/preset" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+		</TableRow>
+
+	</TableLayout>
+
+</ScrollView>

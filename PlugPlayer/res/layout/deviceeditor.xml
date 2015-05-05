@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="1" android:id="@+id/table">
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/name"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<EditText android:id="@+id/name" android:maxLines="1"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/device_url"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<EditText android:id="@+id/location" android:maxLines="1" android:inputType="textUri"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/base_url"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<EditText android:hint="@string/base_url_override" android:id="@+id/baseURL" android:maxLines="1" android:inputType="textUri"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/timeout"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<EditText android:id="@+id/timeout" android:maxLines="1" android:inputType="number"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/username"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<EditText android:id="@+id/username" android:maxLines="1" android:inputType="textEmailAddress"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/password"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<EditText android:id="@+id/password" android:maxLines="1" android:inputType="textPassword"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView android:gravity="right" android:text="@string/allow_control"
+				android:padding="3dip" android:textSize="16sp" android:maxLines="1"
+				android:textStyle="bold" android:textColor="@color/title" />
+			<CheckBox  android:id="@+id/control" />
+		</TableRow>
+		
+			</TableLayout>
+	
+	<Button android:text="@string/save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="right" android:id="@+id/save" android:layout_below="@id/table"
+            android:layout_alignParentRight="true"/>
+	
+</RelativeLayout>

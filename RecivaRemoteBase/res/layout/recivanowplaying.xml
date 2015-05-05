@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+
+
+  
+ <FrameLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+	
+  <TextView android:id="@+id/title" android:text="Searching for Radios"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal" android:maxLines="1" android:textStyle="bold" android:textSize="20sp"
+    android:textColor="@color/title" android:paddingTop="7sp"/>
+  
+  <ImageButton android:id="@+id/power" android:src="@drawable/power" android:padding="5sp" android:layout_width="35sp" android:layout_height="35sp" android:layout_gravity="right" android:scaleType="fitXY" android:background="@color/buttonbackground"/>
+
+ </FrameLayout>  
+  
+<FrameLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_weight="1">
+
+<LinearLayout android:id="@+id/content"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical" android:layout_weight="1" >
+
+  		<ImageView android:id="@+id/art" android:src="@drawable/note" android:layout_weight="1" android:padding="5sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="center" android:scaleType="fitCenter"/>
+
+  
+<FrameLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+   <TextView android:id="@+id/info" android:text="Current Station Info Goes Here"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:gravity="center" android:maxLines="3" android:textStyle="bold" android:textSize="16sp"
+    android:textColor="@color/title" android:paddingTop="10sp"/>
+
+ 		<ProgressBar android:id="@+id/stationprogress" android:layout_gravity="right" android:layout_width="23sp" android:layout_height="23sp" android:layout_margin="7sp"/>
+</FrameLayout>
+
+<LinearLayout android:id="@+id/buttons"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" android:gravity="center" android:layout_margin="5sp">
+
+<LinearLayout android:id="@+id/buttons"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" android:gravity="center" android:layout_weight="1"> 
+ 	  <ImageButton android:id="@+id/volumemute" android:src="@drawable/button_volumemute" android:layout_width="50sp" android:layout_height="50sp" android:scaleType="fitXY" android:background="@color/buttonbackground"/>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/buttons"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" android:gravity="center" android:layout_weight="1"> 
+ 	  <ImageButton android:id="@+id/volumedown" android:src="@drawable/button_volumedown" android:layout_width="50sp" android:layout_height="50sp" android:scaleType="fitXY" android:background="@color/buttonbackground"/>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/buttons"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" android:gravity="center" android:layout_weight="1"> 
+ 	  <ImageButton android:id="@+id/volumeup" android:src="@drawable/button_volumeup"  android:layout_width="50sp" android:layout_height="50sp" android:scaleType="fitXY" android:background="@color/buttonbackground"/>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/buttons"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" android:gravity="center" android:layout_weight="1"> 
+   	  <ImageButton android:id="@+id/control1" android:src="@drawable/button_thumbs_dn" android:layout_width="50sp" android:layout_height="50sp" android:scaleType="fitXY" android:background="@color/buttonbackground"/>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/buttons"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" android:gravity="center" android:layout_weight="1"> 
+ 	  <ImageButton android:id="@+id/control2" android:src="@drawable/button_thumbs_up" android:layout_width="50sp" android:layout_height="50sp" android:scaleType="fitXY" android:background="@color/buttonbackground"/>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/buttons"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" android:gravity="center" android:layout_weight="1"> 
+ 	  <ImageButton android:id="@+id/control3" android:src="@drawable/button_play"  android:layout_width="50sp" android:layout_height="50sp" android:scaleType="fitXY" android:background="@color/buttonbackground"/>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/buttons"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal" android:gravity="center" android:layout_weight="1"> 
+ 	  <ImageButton android:id="@+id/control4" android:src="@drawable/button_next"  android:layout_width="50sp" android:layout_height="50sp" android:scaleType="fitXY" android:background="@color/buttonbackground"/>
+</LinearLayout>
+    
+</LinearLayout>
+ 	
+</LinearLayout>
+
+ 		<ProgressBar android:id="@+id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"/>
+   		
+  		<TextView android:id="@+id/instructions" android:text="Press red power icon to turn radio on"
+ 		 	android:layout_width="fill_parent"
+ 		 	android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:gravity="center_horizontal" android:maxLines="1" android:textStyle="bold" android:textSize="15sp"
+   		 	android:textColor="@color/title" />
+
+   </FrameLayout>  
+ 	
+ 
+</LinearLayout>
