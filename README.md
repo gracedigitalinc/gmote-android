@@ -1,4 +1,4 @@
 # gmote-android
-Grace Digital Remote Control for Android
+Grace Digital Remote Control app for Android
 
 
