@@ -1,6 +1,6 @@
 # Gmote
 
-Grace Digital Remote Control app for Android.
+Grace Digital Remote Control app for Android - *Gmote*.
 
 > A mobile application for controlling Grace Digital Internet Radios.<br>  https://gracedigtial.com/product-category/internet-radios/
 
